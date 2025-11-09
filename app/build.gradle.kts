@@ -66,13 +66,13 @@ dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.9.0")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.9.0")
 
-// Coil para Compose (mostrar imágenes)
+// Coil para Compose
     implementation("io.coil-kt:coil-compose:2.6.0")
 
 // Logging interceptor (para ver requests en Logcat)
     implementation("com.squareup.okhttp3:logging-interceptor:4.12.0")
 
-// Pruebas (para más adelante)
+// Pruebas
     testImplementation("io.strikt:strikt-core:0.34.1")
     testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.9.0")
 
